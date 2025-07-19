@@ -1,0 +1,72 @@
+# Write code below 💖
+print("===The Sorting Hat===")
+Gryffindor = 0
+Ravenclaw = 0
+Hufflepuff = 0
+Slytherin = 0
+
+print('''Q1) Do you like Dawn or Dusk?
+    1) Dawn
+    2) Dusk  ''')
+a = int(input("Enter between 1 and 2: "))
+
+if a == 1:
+  Gryffindor += 1
+  Ravenclaw += 1
+elif a == 2:
+  Hufflepuff += 2
+  Slytherin += 2
+else:
+  print("Wrong input.")
+
+print('''Q2) When I’m dead, I want people to remember me as:
+    1) The Good
+    2) The Great
+    3) The Wise
+    4) The Bold''')
+b = int(input("Enter between 1 and 4: "))
+
+if a == 1:
+  Hufflepuff += 2
+elif a == 2:
+  Slytherin += 2
+elif b == 3:
+  Ravenclaw += 2
+elif b == 4:
+  Gryffindor += 2
+else:
+  print("Wrong input.")
+
+print('''Q3) Which kind of instrument most pleases your ear?
+    1) The violin
+    2) The trumpet
+    3) The piano
+    4) The drum  ''')
+c = int(input("Enter between 1 and 4: "))
+
+if c == 1:
+  Slytherin += 4
+elif c == 2:
+  Hufflepuff += 4
+elif c == 3:
+  Ravenclaw += 4
+elif c == 4:
+  Gryffindor += 4
+else:
+  print("Wrong input.")
+
+print("Gryffindor: ", Gryffindor)
+print("Slytherin: ", Slytherin)
+print("Ravenclaw: ", Ravenclaw)
+print("Hufflepuff: ", Hufflepuff)
+
+if Hufflepuff >= Gryffindor and Hufflepuff >= Slytherin and Hufflepuff >= Ravenclaw:
+  print("Hufflepuff!")
+elif Gryffindor >= Slytherin and Gryffindor >= Ravenclaw and Gryffindor >= Hufflepuff:
+  print("Gryffindor!")
+elif Slytherin >= Ravenclaw and Slytherin >= Hufflepuff and Slytherin >= Gryffindor:
+  print("Slytherin!")
+else:
+  print("Ravenclaw!")
+
+

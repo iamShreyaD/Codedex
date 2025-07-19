@@ -1,0 +1,5 @@
+# Write code below 💖
+m = 130
+h = 165
+bmi = m/(H**2)
+print(bmi)

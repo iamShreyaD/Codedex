@@ -1,0 +1,8 @@
+# Write code below 💖
+name = 'Erlich Bachman' #string
+user_id = 16180339887   #variable
+progress = 0.75         #float
+xp = 60                 #integer
+verified = True         #float
+
+
