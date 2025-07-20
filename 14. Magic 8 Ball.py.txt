@@ -1,0 +1,30 @@
+# Write code below 💖
+import random
+q = input("Question:  ")
+no = random.randint(1, 9)
+
+if no == 1:
+  a = ("Yes - definitely.")
+elif no == 2:
+  a = ("It is decidedly so.")
+elif no == 3:
+  a = ("Without a doubt.")
+elif no == 4:
+  a = ("Reply hazy, try again.")
+elif no == 5:
+  a = ("Ask again later.")
+elif no == 6:
+  a = ("Better not tell you now.")
+elif no == 7:
+  a = ("My sources say no.")
+elif no == 8:
+  a = ("Outlook not so good.")
+elif no == 9:
+  a = ("Very doubtful.")
+else:
+  a = ("Error")
+
+print("Magic 8 ball: " + a)
+
+
+

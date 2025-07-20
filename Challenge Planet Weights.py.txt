@@ -1,0 +1,27 @@
+# Write code below 💖
+e_weight = float(input("What is your weight on the Earth?  "))
+planet_no = int(input("What planet number do you want to know about?  "))
+
+if planet_no == 1:
+  weight = e_weight * 0.38
+  print(weight)
+elif planet_no == 2:
+  weight = e_weight * 0.91
+  print(weight)
+elif planet_no == 3:
+  weight = e_weight * 0.38
+  print(weight)
+elif planet_no == 4:
+  weight = e_weight * 2.53
+  print(weight)
+elif planet_no == 5:
+  weight = e_weight * 1.07
+  print(weight)
+elif planet_no == 6:
+  weight = e_weight * 0.89
+  print(weight)
+elif planet_no == 7:
+  weight = e_weight * 1.14
+  print(weight)
+else:
+  print('Invalid planet number')
