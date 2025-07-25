@@ -18,7 +18,8 @@ for i in things_to_do:
 
 print(len(things_to_do))
 
-list(enumerate(things_to_do, start=1))
+a = list(enumerate(things_to_do, start=1))
+print(a)
 
 things_to_do.append('Learn as many languages')
 
@@ -26,3 +27,9 @@ things_to_do.pop(2)
 
 for i in things_to_do:
   print(i)
+
+print(max(3.4, 5.3))
+
+print(min(2, 5, 53, -3))
+
+print(pow(5,9))
