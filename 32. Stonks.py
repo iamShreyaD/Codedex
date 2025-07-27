@@ -8,7 +8,7 @@ stock_prices = [34.68, 36.09, 34.94, 33.97, 34.68, 35.82, 43.41, 44.29, 44.65, 5
 
 x = int(input("Which day's stock price do you want to find from the following stock prices list starting from 0? "))
 def price_at(x):
-    return 
+    return x
 
 def max_price(a, b):
     return max(stock_prices)
